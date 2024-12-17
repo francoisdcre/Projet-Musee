@@ -15,15 +15,15 @@
 <p>Voici les principaux fichiers du projet :</p>
 <pre>
 Projet-Musee-main/
-├── index.php            # Page principale
-├── dashboard.php        # Tableau de bord
-├── visitors.php         # Gestion des visiteurs
-├── historical.php       # Gestion des elements historiques
-├── statistics.php       # Visualisation des statistiques
-├── css/                 # Feuilles de style
-├── js/                  # Scripts JavaScript
-├── php/                 # Fichiers PHP pour les fonctionnalites
-└── mysql/museum.sql     # Base de donnees SQL
+├── index.php
+├── dashboard.php
+├── visitors.php
+├── historical.php
+├── statistics.php
+├── css/
+├── js/
+├── php/
+└── mysql/museum.sql
 </pre>
 
 <h2>Competences acquises</h2>
