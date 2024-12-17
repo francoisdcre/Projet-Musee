@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #FFF5EA;
+    overflow-x: hidden;
+}
+
+#connexion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100dvh;
+    background: #008ed563;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 20px;
+    box-shadow: 1px 2px 36px -2px #00659794;
+    height: 500px;
+}
+
+.hero img {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.login {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    border-radius: 20px;
+    gap: 40px;
+    background: white;
+    height: 500px;
+}
+
+.login h1 {
+    position: absolute;
+    top: -1em;
+    left: 15px;
+    background: #008ed563;
+    padding: 15px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.login input {
+    padding: 10px;
+    width: 300px;
+    height: 60px;
+    border: transparent;
+    border-radius: 10px;
+    background: #008ed533;
+}
+
+.login input[type="submit"] {
+    cursor: pointer;
+}
+
+.login input:focus {
+    border: solid white 2px;
+    outline: none;
+}
+
+/* Dashbord */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    gap: 20px;
+    padding: 0 20px 0 20px;
+    background-color: #373F51;
+}
+
+nav img {
+    width: 90px;
+    height: 90px;
+}
+
+#vente {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 0 20px 0 20px;
+}
+
+.left {
+    height: 80dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #008ed563;
+    border-radius: 30px 10px 10px 30px;
+    padding: 0 100px 0 100px;
+}
+
+.right {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80dvh;
+    gap: 15px;
+}
+
+.left form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.left form input {
+    width: 500px;
+    height: 40px;
+    border: solid #ffffff4d 1px;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+    background: rgba(255, 255, 255, 0.13);
+}
+
+.left form select {
+    width: 500px;
+    height: 40px;
+    border: solid #ffffff4d 1px;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+    background: rgba(255, 255, 255, 0.13);
+}
+
+.compteur {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #f5647579;
+    border-radius: 10px 30px 10px 10px;
+    padding: 0 120px 0 120px;
+}
+
+.visiteurs {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background: #dfbbb17c;
+
+    border-radius: 10px 10px 30px 10px;
+    padding: 0 120px 0 120px;
+}
+
+.visiteurs a {
+    border-radius: 10px;
+    height: 40px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.13);
+    border: solid #ffffff4d 1px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.stats a:nth-child(1) {
+    width: 450px;
+}
+
+.stats a:nth-child(2) {
+    width: 40px;
+}
+
+
+.stats img {
+    width: 40px;
+    height: 40px;
+}
+
+.left form input[type=submit] {
+    cursor: pointer;
+}
+
+.closeMuseum {
+    height: 100px;
+    background-color: rgba(255, 37, 37, 0.37);
+    width: 500px;
+    border: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    border: solid #ffffff4d 1px;
+}
+
+#clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0;
+}
+
+thead{
+    background: #008ed563;
+}
+
+tbody tr:nth-child(even) {
+    background: #8bb4c963;
+}
+
+thead tr,
+tbody tr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+th,
+td {
+    padding: 20px;
+    width: 180px;
+    height: 100px;
+    border: solid #ffffff4d 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #ccc 1px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.delete {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 37, 37, 0.37);
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Statistiques */
+
+#stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.statTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.statLeft,
+.statRight,
+.statBottom,
+.statBot{
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.statLeft {
+    background: #008ed52d;
+}
+
+.statRight {
+    background: #dfbbb12f;
+}
+
+.statBottom {
+    background: #f5647536;
+}
+
+.statLeft {
+    background: #008ed52d;
+}
+
+.statBot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.botLeft {
+    width: 470px;
+    background-color: #30baff2d;
+    border-radius: 10px;
+}
+
+.botRight {
+    width: 465px;
+    background-color: #ffa7f036;
+    border-radius: 10px;
+    text-align: center;
+}
