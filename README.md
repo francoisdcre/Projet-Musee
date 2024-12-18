@@ -38,6 +38,6 @@ Projet-Musee-main/
 <h2>Preview</h2>
 
 ![Exemple d'image](preview/dashboard.png)
-![Exemple d'image](preview/clients.png)
+![Exemple d'image](preview/clients.PNG)
 ![Exemple d'image](preview/historique.png)
 ![Exemple d'image](preview/stats.png)
