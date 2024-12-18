@@ -34,3 +34,10 @@ Projet-Musee-main/
   <li>Utilisation de CSS et JavaScript pour ameliorer l'experience utilisateur.</li>
   <li>Conception et manipulation d'une base de donnees relationnelle.</li>
 </ul>
+
+<h2>Preview</h2>
+
+![Exemple d'image](preview/dashboard.png)
+![Exemple d'image](preview/clients.png)
+![Exemple d'image](preview/historique.png)
+![Exemple d'image](preview/stats.png)
