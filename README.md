@@ -37,7 +37,7 @@ Projet-Musee-main/
 
 <h2>Preview</h2>
 
-![Dashboard]([preview/dashboard.PNG](https://raw.githubusercontent.com/francoisdcre/Projet-Musee/main/preview/dashboard.PNG))
-![Liste des clients]([preview/clients.PNG](https://raw.githubusercontent.com/francoisdcre/Projet-Musee/main/preview/clients.PNG))
-![Historique des clients]([preview/historique.PNG](https://raw.githubusercontent.com/francoisdcre/Projet-Musee/main/preview/historique.PNG))
-![Statistiques]([preview/stats.PNG](https://raw.githubusercontent.com/francoisdcre/Projet-Musee/main/preview/stats.PNG))
+![Dashboard](https://raw.githubusercontent.com/francoisdcre/Projet-Musee/main/preview/dashboard.PNG)
+![Liste des clients](https://raw.githubusercontent.com/francoisdcre/Projet-Musee/main/preview/clients.PNG)
+![Historique des clients](https://raw.githubusercontent.com/francoisdcre/Projet-Musee/main/preview/historique.PNG)
+![Statistiques](https://raw.githubusercontent.com/francoisdcre/Projet-Musee/main/preview/stats.PNG)
